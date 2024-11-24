@@ -1,3 +1,5 @@
+import { abi as MyTokenAbi } from "../app/assets/MyToken.json";
+import { Abi } from "viem";
 import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 
 /**
@@ -11,6 +13,13 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
  *   },
  * } as const;
  */
-const externalContracts = {} as const;
+const externalContracts = {
+  11155111: {
+    MyToken: {
+      address: "0x85D57140a0dB24D45ee2bB3379e548D1253BFA36",
+      abi: MyTokenAbi as Abi,
+    },
+  },
+} as const;
 
 export default externalContracts satisfies GenericContractsDeclaration;
