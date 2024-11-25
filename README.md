@@ -2,7 +2,7 @@
 
 ---
 
-### Set up instructions for Group Members:
+### Set up instructions for Coursemates:
 ### 1. FORK the repo and run the following
 ```sh
 git clone https://github.com/<your github username>Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024.git
