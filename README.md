@@ -2,12 +2,11 @@
 
 ---
 
-### Set up instructions for Coursemates:
+### Set up instructions for coursemates:
 ### 1. FORK the repo and run the following
 ```sh
-git clone https://github.com/<your github username>Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024.git
-cd Group-10-Weekly-Assignments-Encode-Club-EVM-Bootcamp-Q4-2024
-git checkout Week-3
+git clone https://github.com/<your github username>/Week-4-Initial-Setup.git
+cd Week-4-Initial-Setup
 ```
 ### 2. create and fill in the following '*.env*' file in the '*backend*', '*frontend/packages/hardhat*', and '*frontend/packages/nextjs*' folders
 ```env
@@ -15,7 +14,7 @@ PRIVATE_KEY="<your wallet private key should go here>"
 DEPLOYER_PRIVATE_KEY="<your wallet private key should go here>"
 ALCHEMY_API_KEY="********************************"
 ETHERSCAN_API_KEY="********************************"
-TOKEN_ADDRESS="0x85D57140a0dB24D45ee2bB3379e548D1253BFA36"
+TOKEN_ADDRESS="<your MyToken contract address"
 ```
 ### 3. start the frontend
 
@@ -70,8 +69,6 @@ npm run start
 ❌Deploy a new TokenizedBallot by running `yarn deploy –network sepolia` and make sure you’re on `frontend/scaffold-eth-2/`. (To change the proposals, edit `frontend\scaffold-eth-2\packages\hardhat\deploy\01_deploy_tokenized_ballots.ts`)
 
 ❌Go to `http://localhost:3000/debug` to your deployed TokenizedBallot contract and cast votes or query results.
-
-❌ Lastly, send your forked repo and TokenizedBallot contract to our discord so I can add it to this readme!
 
 **Bonus todos:**
 * Store a list of recent votes in the backend and display that on frontend
