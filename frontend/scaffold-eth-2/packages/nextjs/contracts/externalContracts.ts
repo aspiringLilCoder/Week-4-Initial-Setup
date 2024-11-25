@@ -16,7 +16,7 @@ import { GenericContractsDeclaration } from "~~/utils/scaffold-eth/contract";
 const externalContracts = {
   11155111: {
     MyToken: {
-      address: "0x85D57140a0dB24D45ee2bB3379e548D1253BFA36",
+      address: "", // Add the address of the deployed contract
       abi: MyTokenAbi as Abi,
     },
   },
