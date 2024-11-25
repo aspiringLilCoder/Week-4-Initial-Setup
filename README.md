@@ -32,6 +32,17 @@ cd frontend/scaffold-eth-2/
 yarn start
 ```
 * Access frontend through `http://localhost:3000/`.
+
+### 3. Add in your MyToken contract address in '*frontend/packages/nextjs/contracts/externalContracts.ts*'
+```solidity
+  11155111: {
+    MyToken: {
+      address: "", // Add the address of your deployed MyToken contract here
+      abi: MyTokenAbi as Abi,
+    },
+  },
+```
+
 * Access the MyToken and to-be-deployed contracts through `http://localhost:3000/debug`.
 
 ### 3. start the backend
