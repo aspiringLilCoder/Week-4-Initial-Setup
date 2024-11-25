@@ -14,7 +14,7 @@ PRIVATE_KEY="<your wallet private key should go here>"
 DEPLOYER_PRIVATE_KEY="<your wallet private key should go here>"
 ALCHEMY_API_KEY="********************************"
 ETHERSCAN_API_KEY="********************************"
-TOKEN_ADDRESS="<your MyToken contract address"
+TOKEN_ADDRESS="<your MyToken contract address>"
 ```
 ### 3. start the frontend
 
